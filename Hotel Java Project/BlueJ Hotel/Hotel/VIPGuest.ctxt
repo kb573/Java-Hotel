@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=VIPGuest
+comment0.text=\r\n\ This\ object\ class\ implements\ the\ VIP\ guest\ object\ which\r\n\ extends\ the\ guest\ superclass.\ The\ VIP\ guest\ object\ has\ \r\n\ several\ attributes\:\ all\ attributes\ inherited\ from\ the\ \r\n\ guest\ class,\ as\ well\ as,\ VIPstartDate,\ VIPexpiryDate.\r\n\r\n\ @author\ 031317\r\n\ @version\ 08/03/2019\r\n\r\n
+comment1.params=guestID\ fName\ lName\ dateJoin\ VIPstartDate\ VIPexpiryDate
+comment1.target=VIPGuest(int,\ java.lang.String,\ java.lang.String,\ java.time.LocalDate,\ java.time.LocalDate,\ java.time.LocalDate)
+comment1.text=\r\n\ The\ constructor\ method\ for\ creating\ a\ VIP\ guest\ object.\r\n\ \r\n\ @param\ guestID,\ fName,\ lName,\ dateJoin,\ VIPstartDate,\ VIPexpiryDate.\r\n\r\n
+comment2.params=
+comment2.target=java.time.LocalDate\ getVipStart()
+comment2.text=\r\n\ The\ getter\ method\ to\ retrieve\ the\ vip\ start\ date\ attribute.\r\n\ \r\n\ @return\ VIPstartDate\r\n\r\n
+comment3.params=
+comment3.target=java.time.LocalDate\ getVipEnd()
+comment3.text=\r\n\ The\ getter\ method\ to\ retrieve\ the\ vip\ end\ date\ attribute.\r\n\ \r\n\ @return\ VIPexpiryDate\r\n\r\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\r\n\ A\ to\ string\ method\ to\ override\ the\ to\ string\ method\r\n\ in\ the\ object\ superclass.\ This\ method\ returns\ all\r\n\ VIP\ guest\ attributes\ as\ strings.\r\n\ \r\n\ @return\ formatted\ string.\r\n\r\n
+numComments=5

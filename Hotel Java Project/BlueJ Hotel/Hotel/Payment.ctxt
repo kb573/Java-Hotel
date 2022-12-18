@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Payment
+comment0.text=\r\n\ This\ object\ class\ implements\ the\ payment\ object\ used\ in\ \r\n\ the\ hotel\ management\ system\ implementation\ class.\ The\ \r\n\ payment\ object\ has\ several\ attributes\:\ date,\ guestID,\r\n\ amount,\ payReason.\r\n\r\n\ @author\ 031317\r\n\ @version\ 08/03/2019\r\n\r\n
+comment1.params=date\ guestID\ amount\ payReason
+comment1.target=Payment(java.time.LocalDate,\ int,\ double,\ java.lang.String)
+comment1.text=\r\n\ The\ constructor\ method\ for\ creating\ a\ payment\ object.\r\n\ \r\n\ @param\ date,\ guestID,\ amount,\ payReason.\r\n\r\n
+comment2.params=
+comment2.target=java.time.LocalDate\ getDate()
+comment2.text=\r\n\ The\ getter\ method\ to\ retrieve\ the\ date\ attribute.\r\n\ \r\n\ @return\ date\r\n\r\n
+comment3.params=
+comment3.target=int\ getGuestID()
+comment3.text=\r\n\ The\ getter\ method\ to\ retrieve\ the\ guest\ ID\ attribute.\r\n\ \r\n\ @return\ guestID\r\n\r\n
+comment4.params=
+comment4.target=double\ getAmount()
+comment4.text=\r\n\ The\ getter\ method\ to\ retrieve\ the\ amount\ attribute.\r\n\ \r\n\ @return\ amount\r\n\r\n
+comment5.params=
+comment5.target=java.lang.String\ getPayReason()
+comment5.text=\r\n\ The\ getter\ method\ to\ retrieve\ the\ pay\ reason\ attribute.\r\n\ \r\n\ @return\ payReason\r\n\r\n
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment6.text=\r\n\ A\ to\ string\ method\ to\ override\ the\ to\ string\ method\r\n\ in\ the\ object\ superclass.\ This\ method\ returns\ all\r\n\ payment\ attributes\ as\ strings.\r\n\ \r\n\ @return\ formatted\ string.\r\n\r\n
+numComments=7

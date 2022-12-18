@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Room
+comment0.text=\r\n\ This\ object\ class\ implements\ the\ room\ object\ used\ in\ \r\n\ the\ hotel\ management\ system\ implementation\ class.\ The\ \r\n\ room\ object\ has\ several\ attributes\:\ roomID,\ roomType,\r\n\ price,\ capacity,\ facilities.\r\n\r\n\ @author\ 031317\r\n\ @version\ 08/03/2019\r\n\r\n
+comment1.params=roomNumber\ roomType\ price\ capacity\ facilities
+comment1.target=Room(int,\ java.lang.String,\ double,\ int,\ java.lang.String)
+comment1.text=\r\n\ The\ constructor\ method\ for\ creating\ a\ room\ object.\r\n\ \r\n\ @param\ roomNumber,\ roomType,\ price,\ capacity,\ facilities.\r\n\r\n
+comment2.params=
+comment2.target=int\ getRoomNumber()
+comment2.text=\r\n\ The\ getter\ method\ to\ retrieve\ the\ room\ number\ attribute.\r\n\ \r\n\ @return\ roomNumber\r\n\r\n
+comment3.params=
+comment3.target=java.lang.String\ getRoomType()
+comment3.text=\r\n\ The\ getter\ method\ to\ retrieve\ the\ room\ type\ attribute.\r\n\ \r\n\ @return\ roomType\r\n\r\n
+comment4.params=
+comment4.target=double\ getPrice()
+comment4.text=\r\n\ The\ getter\ method\ to\ retrieve\ the\ price\ attribute.\r\n\ \r\n\ @return\ price\r\n\r\n
+comment5.params=
+comment5.target=int\ getCapacity()
+comment5.text=\r\n\ The\ getter\ method\ to\ retrieve\ the\ capacity\ attribute.\r\n\ \r\n\ @return\ capacity\r\n\r\n
+comment6.params=
+comment6.target=java.lang.String\ getFacilities()
+comment6.text=\r\n\ The\ getter\ method\ to\ retrieve\ the\ facilities\ attribute.\r\n\ \r\n\ @return\ facilities\r\n\r\n
+comment7.params=
+comment7.target=java.lang.String\ toString()
+comment7.text=\r\n\ A\ to\ string\ method\ to\ override\ the\ to\ string\ method\r\n\ in\ the\ object\ superclass.\ This\ method\ returns\ all\r\n\ room\ attributes\ as\ strings.\r\n\ \r\n\ @return\ formatted\ string.\r\n\r\n
+numComments=8
